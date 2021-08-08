@@ -85,7 +85,6 @@ public class Person {
         return Objects.hash(name, surName);
     }
 
-
     public PersonBuilder newChildBuilder() {
         PersonBuilder builder = new PersonBuilder()
                 .setSurname(this.getSurName())
